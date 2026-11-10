@@ -1,0 +1,28 @@
+{
+  "name": "libracard-server",
+  "version": "1.0.0",
+  "description": "REST API quan ly doc gia thu vien LibraCard - 23IT.EB089 - Dang Ngoc Tan",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node scripts/seed.js",
+    "export": "node scripts/export.js",
+    "import": "node scripts/import.js"
+  },
+  "keywords": [],
+  "author": "23IT.EB089 - Dang Ngoc Tan",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

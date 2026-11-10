@@ -1,0 +1,7 @@
+# MongoDB data files (du lieu that duoc xuat ra database/users.json)
+server/data/
+*.log
+.vscode/
+app/android/build/
+app/android/.gradle/
+app/android/.kotlin/
